@@ -12,4 +12,4 @@ First think to make sure of is that you have the correct environment to get this
 
    __NOTE: This step is important because when dmd installs it checks the environment for VS and if it finds it compiles the runtime/phobos for 32/64 bit coff.__
 
-[Nuget](img/OpenNugetConsole.png)
+![Nuget](img/OpenNugetConsole.png)
