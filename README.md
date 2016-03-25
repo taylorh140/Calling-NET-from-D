@@ -15,16 +15,22 @@ First think to make sure of is that you have the correct environment to get this
 3. Start a new Project-> Class Library
 
 ![Nuget](img/NewProj.png)
+
 ![Nuget](img/ClassLib.png)
+
 4. Open the Nuget Console 
+
    __NOTE: This step uses a nuget library [Unmanaged exports](https://www.nuget.org/packages/UnmanagedExports)
 
 ![Nuget](img/OpenNugetConsole.png)
+
 5. Enter the following command into the PM prompt
+
 ```
 Install-Package UnmanagedExports
 ```
-![Nuget](img/exportsinstall.png)
+
+![Nuget](img/exportsinstall.PNG)
 
 6. Set the target for the dll, I use x86 in the example. To do so Open the Configuration Manager
 
