@@ -70,7 +70,7 @@ First think to make sure of is that you have the correct environment to get this
    import std.stdio;
    import std.string;
 
-   pragma(lib, "UnmanagedInterface.lib"); //Use to import library
+   pragma(lib, "D_TO_NET.lib"); //Use to import library
 
    extern(C) char * csHello(); //Name of the C interface function
 
