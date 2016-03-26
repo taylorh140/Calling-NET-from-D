@@ -1,14 +1,13 @@
+/*caller.d*/
 import std.stdio;
 import std.string;
 
-pragma(lib, "UnmanagedInterface.lib");
+pragma(lib, "D_TO_NET.lib"); //Use to import library
 
-extern(C) char * csHello(); string Hello(){return cast(string) csHello().fromStringz();}
-extern(C) char * csOpenWord(); string OpenWord(){return cast(string) csOpenWord().fromStringz();}
+extern(C) char * csHello(); //Name of the C interface function
+
+string Hello(){return cast(string) csHello().fromStringz();} //An optional Wrapper
 
 void main(){
-	writeln(Hello());
-	writeln(OpenWord());
-	
-	getchar();
+writeln(Hello());
 }
