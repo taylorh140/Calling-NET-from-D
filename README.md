@@ -20,7 +20,7 @@ First think to make sure of is that you have the correct environment to get this
 
 4. Open the Nuget Console 
 
-   __NOTE: This step uses a nuget library [Unmanaged exports](https://www.nuget.org/packages/UnmanagedExports)
+   __NOTE: This step uses a nuget library [Unmanaged exports](https://www.nuget.org/packages/UnmanagedExports)__
 
    ![Nuget](img/OpenNugetConsole.png)
 
