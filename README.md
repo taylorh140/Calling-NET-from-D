@@ -16,7 +16,7 @@ First think to make sure of is that you have the correct environment to get this
 
 ![Nuget](img/NewProj.png)
 
-![Nuget](img/ClassLib.png)
+![Nuget](img/ClassLib.PNG)
 
 4. Open the Nuget Console 
 
@@ -34,4 +34,4 @@ Install-Package UnmanagedExports
 
 6. Set the target for the dll, I use x86 in the example. To do so Open the Configuration Manager
 
-![Nuget](img/opencfg.png)
+![Nuget](img/OpenCfg.png)
