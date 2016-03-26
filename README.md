@@ -31,12 +31,13 @@ First think to make sure of is that you have the correct environment to get this
    ```
 
    ![Nuget](img/exportsinstall.PNG)
-   ![](img/setx86.png)
+
 
 6. Set the target for the dll, I use x86 in the example. To do so Open the Configuration Manager
 
    ![Nuget](img/OpenCfg.png)
-
+   ![](img/setx86.png)
+   
 7. Add the static functions and includes
    ```C#
    using System;
@@ -83,4 +84,8 @@ First think to make sure of is that you have the correct environment to get this
 9. To compile the d code at least for 32 bit use:
    ```bat
    dmd caller.d -m32mscoff
+   ```
+1. If everything worked you should get the a responce from .NET
+   ```
+   Hello, MessageBox!
    ```
