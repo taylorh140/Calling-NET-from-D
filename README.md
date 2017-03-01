@@ -90,3 +90,13 @@ First think to make sure of is that you have the correct environment to get this
    ```
    Hello, MessageBox!
    ```
+# Troubleshooting
+
+if you get a strange error such as the following:
+```
+error : syntax error at token '{' in: {
+```
+it may be due to a language setting in windows. According to http://stackoverflow.com/questions/20288469/cant-create-unmanaged-dll-using-c-sharp-and-robert-gieseckes-unmanaged-exports
+
+setting the default language of non-unicode programs may be of help.
+"Control Panel > Language and Regional Settings > Additional > Change language for applications that dont support Unicode"
